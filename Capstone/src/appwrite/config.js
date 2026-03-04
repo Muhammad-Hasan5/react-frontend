@@ -1,5 +1,5 @@
 import conf from "../conf/conf";
-import { Client, Account, ID, TablesDB, Storage, Query } from "appwrite";
+import { Client, ID, TablesDB, Storage, Query } from "appwrite";
 
 export class Service {
   client = new Client();
